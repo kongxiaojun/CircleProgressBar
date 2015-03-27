@@ -1,5 +1,6 @@
 # CircleProgressBar
 Android Circle ProgressBar like IOS download app progressbar
+圆形进度条，类似IOS安装应用时的进度条
 
 #Usage
 
