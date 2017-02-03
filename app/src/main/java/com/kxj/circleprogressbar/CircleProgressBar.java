@@ -63,10 +63,11 @@ public class CircleProgressBar extends View {
         super.onLayout(changed, left, top, right, bottom);
     }
 
+    Paint paint = new Paint();
+
     @Override
     protected void onDraw(Canvas canvas) {
         if (radius != -1 && getVisibility() == VISIBLE) {
-            Paint paint = new Paint();
             paint.setAntiAlias(true);
             paint.setColor(progressBackground);
             canvas.drawCircle(getWidth() / 2, getHeight() / 2, radius, paint);
